@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap");
+
+* {
+  background: rgb(218, 242, 252);
+
+  color: rgb(85, 85, 85);
+}
+
+.card {
+  width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6em;
+}
+
+#list {
+  width: 35rem;
+}
+
+.card,
+.card > *,
+.card > * > *,
+.card > * > * > * , 
+.card > * > * > * > *{
+  background: white;
+}
+
+.card-title {
+  font-family: Nunito, sans-serif;
+}
+
+.card div ul li div{
+  margin: 0.5em;
+}
+
+
+.item {
+  height: 1.5em;
+  width: 18em;
+  font-size: 18px;
+}
+
+header {
+  margin: 5em;
+  margin-bottom: 1.5em;
+  font-weight: bold;
+}
+
+header h1 {
+  font-size: 60px;
+}
+
+header h4 {
+  font-size: 30px;
+}
+
+.login,
+.sign {
+  font-family: Nunito, sans-serif;
+  width: 14em;
+  height: 4em;
+  font-size: 28px;
+  border-radius: 25px;
+  margin: 2em;
+}
+
+.login{
+  background-image:radial-gradient( rgb(122, 240, 204), darkgreen);
+  color: darkgreen;
+}
+
+.sign{
+  background-image:radial-gradient( rgb(243, 146, 214), rgb(100, 6, 45) );
+  color: rgb(100, 0, 42);
+}
+
+.how {
+  margin: 5em;
+}
+
+#heading {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  font-size: 36px;
+}
+
+.step {
+  margin: 2em;
+  font-size: 24px;
+}
+.one {
+  padding: 2em;
+  margin: 1em;
+  border: 2px solid navy;
+  border-radius: 50%;
+  background-image: radial-gradient(navy, lightblue);
+  color: white;
+  font-size: 26px;
+}
+
+.one-w {
+  padding: 1em;
+  margin: 1em;
+  font-size: 30px;
+}
+
+.two {
+  padding: 2em;
+  margin: 1em;
+  border: 2px solid navy;
+  border-radius: 50%;
+  background-image: radial-gradient(navy, lightblue);
+  color: white;
+  font-size: 26px;
+}
+
+.two-w {
+  padding: 1em;
+  margin: 1em;
+  font-size: 30px;
+}
+
+.three {
+  padding: 2em;
+  margin: 1em;
+  border: 2px solid navy;
+  border-radius: 50%;
+  background-image: radial-gradient(navy, lightblue);
+  color: white;
+  font-size: 26px;
+}
+
+.three-w {
+  padding: 1em;
+  margin: 1em;
+  font-size: 30px;
+}
+
+.form{
+  width: 50%;
+  margin: auto;
+  border: 2px #333 solid;
+  padding: 3em;
+  border-radius: 25px;
+}
+
+.logout > *{
+  color: white;
+}
